@@ -1,0 +1,410 @@
+
+/***  login and sign up***/
+.right {
+       float: right;
+}
+.right ul{
+             list-style: none;
+             padding: 1em 3em;
+           }
+
+.right ul li {
+             display:inline-block; 
+            }     
+
+.right ul li a{
+                            text-decoration: none;
+                            color: #fff;
+                            font-weight: 500;
+                            padding: 8px 16px;
+             } 
+ 
+  .right li:nth-child(2) a{
+                                         border:1px solid #fff;
+                                         border-radius: 4px;    
+                          }  
+/**  login and sign up design end***/
+
+
+
+
+
+/*----header navigation--*/
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat",sans-serif;
+}
+
+.logo{
+  line-height: 100px;
+  float: left;
+  text-transform: uppercase;
+}
+
+a.navbar-brand{
+    color: #fff !important;
+    font-family: open_sansregular;
+    font-size: 25px;
+}
+span{
+    font-family: open_sansbold;
+    font-size: 30px;
+    color: orange;
+}
+.menu{
+  float: right;
+  line-height: 100px;
+}
+.menu a{
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0 10px;
+  transition: 0.4s;
+}
+.show-menu-btn,.hide-menu-btn{
+  transition: 0.4s;
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
+}
+.show-menu-btn{
+  float: right;
+}
+.show-menu-btn i{
+  line-height: 100px;
+}
+.menu a:hover,
+.show-menu-btn:hover,
+.hide-menu-btn:hover{
+   color: #ffb824;
+    background-color: rgba(49, 47, 47, 0);
+}
+
+#chk{
+  position: absolute;
+  visibility: hidden;
+  z-index: -1111;
+}
+
+.content{
+  padding: 0 20px;
+}
+.content img{
+  width: 100%;
+  max-width: 700px;
+  margin: 20px 0;
+}
+.content p{
+  text-align: justify;
+}
+
+@media screen and (max-width:800px) {
+  .show-menu-btn,.hide-menu-btn{
+    display: block;
+  }
+  .menu{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #333;
+    right: -100%;
+    top: 0;
+    text-align: center;
+    padding: 80px 0;
+    line-height: normal;
+    transition: 0.7s;
+  }
+  .menu a{
+    display: block;
+    padding: 20px;
+  }
+  .hide-menu-btn{
+    position: absolute;
+    top: 40px;
+    right: 40px;
+  }
+  #chk:checked ~ .menu{
+    right: 0;
+  }
+}
+
+  
+    /*---- header navigation  end--*/
+       
+/*********************** image slider *******************/
+ 
+         #slider{
+            width: 1000px;
+            height: 500px;
+            margin: 20px auto;
+            position: relative;
+            border: 10px solid white;
+            box-shadow: 0px 0px 5px 2px #ccc;
+         }
+         button{
+            padding: 20px;
+            border: none;
+            background: #37f;
+            font-size: 30px;
+            color: white;
+            position: absolute;
+            top:70%;
+
+
+         }
+
+        .next{
+            border-radius: 10px 0px 0px 10px;
+            margin-left: 950px;
+            
+            right:0%; 
+        }
+        .prew{
+            border-radius: 0px 10px 10px 0px;
+              
+        }
+
+/*********************** image slider *******************/
+
+/* footer part css design*/
+    p{  color:#999;
+        line-height:25px;
+     }
+h2,h3{ font-size: 18px;
+
+     }
+     .footer-top{ background:#111;
+        padding:80px;
+
+                }
+        /* segment one*/
+                .segment-one h3
+                {
+                   font-family:courgette;
+                   color: #fff;
+                   letter-spacing: 3px;
+                   margin:10px 0; 
+                }
+        /* segment two*/
+                .segment-two h2
+                { color: #fff;
+                  font-family: poppins;
+                  text-transform: uppercase;
+                 }
+                 .segment-two h2:before{
+                    content: '|';
+                    color: #c65039;
+                    padding-right: 10px;
+                 }
+                 .segment-two ul li{
+                    border-bottom: 1px solid rgba(255,255,255,0.3);
+                    line-height: 40px;
+
+                 }
+                 .segment-two ul li a{
+                    color: #999;
+                    text-decoration: none;
+                 }
+                 .segment-three h2{
+                    color:#fff;
+                    font-family: poppins;
+                    text-transform: uppercase;
+
+                 }
+                 .segment-three h2:before{
+                    content: '|';
+                    color: #c65039;
+                    padding-right: 10px;
+                 }
+                 .segment-three a{ 
+                    background: #494848;
+                    width: 40px;
+                    height: 40px;
+                    display: inline-block;
+                    border-radius: 50%;
+
+                 }
+                 .segment-three a i{
+                      font-size: 20px;
+                      color: #c65039;
+                      padding: 10px 12px;
+                 }
+                 .segment-four h2{
+                    color: #fff;
+                    font-family: poppins;
+                    text-transform: uppercase;
+                 }
+                    .segment-four h2:before{
+                    content: '|';
+                    color: #c65039;
+                    padding-right: 10px;
+                 }
+                 .segment-four form input[type=submit]
+                 { background: #c65039;
+                    border:none;
+                    padding: 3px 15px;
+                    margin-left: -5px;
+                    color:#fff;
+                    text-transform: uppercase;
+
+
+                 }
+    .segment-four form input[type=email]
+             {
+                border-size:25px; 
+             }
+         .footer-bottom-text
+         {
+            text-align: center;
+            background: #000;
+            line-height: 75px;
+
+         }
+         /* fix background*/
+         *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+         }
+         .section-1 {
+            height: 100vh;
+            background:url(gyms.jgp);
+           
+         }
+/******* footer end **********/
+    
+
+/****** site note **********/
+
+.site-note{
+    background: #e9eae5;
+    padding-bottom: 30px;
+}
+
+.note-content h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: open_sanssemibold;
+    text-transform: uppercase; 
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color: red;
+}
+.note-content p{
+    text-align: center;
+    font-size: 16px;
+    font-family: open_sansregular; 
+    color: #000;
+}
+
+/********site note end  **************/
+
+
+/**** site service **************/
+.service-content h3{
+    text-align: center;
+    font-family: open_sansbold; 
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.service-content p{
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: open_sansregular; 
+    font-size: 15px;
+}
+.site-services{
+    background: #fff;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+}
+a.readmore{
+    color: #fff;
+    background: orange;
+    padding: 5px 13px 5px 13px;
+    text-decoration: none;
+    -webkit-border-radius: 100px 5px 100px 5px;
+    border-radius: 100px 5px 100px 5px;
+}
+a.readmore:hover{
+    color:#000;
+    background: #fff;
+    padding: 5px 13px 5px 13px;
+    text-decoration: none;
+}
+
+.header-intro h2{
+    text-align: center;
+    font-size: 30px;
+    font-family: open_sanssemibold;
+    text-transform: uppercase; 
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color: red;
+}
+/******* site service end  *******/
+/*** trainer info start */
+
+.site-news{
+    background: brown;
+    padding-bottom: 20px;
+}
+.news-header h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: open_sanssemibold;
+    text-transform: uppercase; 
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color: red;
+}
+.news-content h2{
+    text-align: center;
+    font-size: 24px;
+    font-family: open_sanssemibold; 
+    color: #fff;  
+    margin-bottom: 10px;
+}
+.news-content p{
+    text-align: center;
+    font-size: 13px;
+    font-family: open_sansregular; 
+    color: #fff;  
+    margin-top: 20px;
+}
+/** trainer info****/
+.clearfix:before,
+.clearfix:after,
+ {
+  content: '\0020';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0; }
+.row:after,
+.clearfix:after {
+  clear: both; }
+.row,
+.clearfix {
+  zoom: 1; }
+
+  .header-top {
+    background: #fff;
+    min-height: 32px;
+    padding: 1.5em 0;
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    clear: both;
+    border-bottom: 1px solid ;
+      }
+
+  /*/ slider info*/
+   .slider1
+ {
+  background: red;
+ }

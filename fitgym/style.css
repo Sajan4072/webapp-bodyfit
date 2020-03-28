@@ -1,0 +1,112 @@
+body  { 
+	     background:url(gyms.jpg);
+	     
+	   background-repeat: no-repeat;
+	   background-size: cover;
+	  -webkit-background:cover;
+ background-position: center center;
+ height: 100vh;
+
+}
+
+.login { width: 320px;
+	     height: 420px;
+	     background: black;
+	     color: #fff ;
+	     top:50%;
+	     left: 50%;
+	     position: absolute;
+	     transform: translate(-50%,-50%);
+	     box-sizing: border-box;
+
+}
+.login input
+  { width: 100%;
+  	margin-bottom: 20px;
+
+
+  }
+  h1
+     {
+     	margin: 0;
+     	padding: 0 0 20px;
+     	text-align: center;
+     	font-size: 22px;
+     }
+     .login p{ margin: 0;
+     	        padding: 0;
+     	        font-weight: bold;
+
+
+     }
+     .login input[type="text"], input[type="password"] {
+     	       border: none;
+     	       border-bottom: 1px solid #fff;
+     	       background:transparent;
+     	       outline: none;
+     	       height: 40px;
+
+     }
+     /* accessries .php */
+  img{
+    max-width: 100%;
+    height: auto;
+    background: lightblue;
+    background: radial-gradient(white 30%, lightblue 70%);
+}
+
+.fa-star,
+.fa-star-half{
+    color: yellowgreen;
+    padding: 3% 0;
+}
+
+#cart_count{
+    text-align: center;
+    padding: 0 0.9rem 0.1rem 0.9rem;
+    border-radius: 3rem;
+}
+
+.shopping-cart{
+    padding: 3% 0;
+}
+
+.cart-items + .cart-items{
+    padding: 2% 0;
+}
+
+.price-details h6{
+    padding: 3% 2%;
+}
+.button {
+  padding: 10px 20px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+ 
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.jit {
+         border-style: ridge;
+     }
+     .button a{
+          color: red;
+          font-size: 25px;
+          font-family: Arial, Helvetica, sans-serif;
+
+     }
+
+     /* header slide at the end of index*/
+ 

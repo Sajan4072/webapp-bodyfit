@@ -1,0 +1,149 @@
+img{
+    max-width: 100%;
+}
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+a{
+	display: inline-block;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+/* ########Contact list css########	*/
+
+ul.contact-lists  li{
+	display: inline-block;
+}
+/* #######End Contact list css#########	*/
+.header-bottom{
+    background: #12121285;
+    margin-bottom: -58px;
+    position: relative;
+    z-index: 999;
+    padding: 10px 0;
+}
+.primary-menu > li{
+	display: inline-block;
+	position: relative;
+}	
+.primary-menu > li .drop-down-menu{
+	position: absolute;
+	left: 0;
+	top:100%;
+	z-index: 99;
+	min-width: 200px;
+	 margin-top: -10px;
+	background-color: #ffffff59;	
+	visibility: hidden;
+	transition: all 0.1s linear;
+
+}
+.primary-menu > li:hover .drop-down-menu{
+	 visibility: visible;
+	margin-top: 0;
+}
+.drop-down-menu li a{
+	color: #121212;
+	padding:5px 10px;
+	white-space: nowrap
+
+
+}
+.drop-down-menu li + li{
+	border-top:1px solid #121212;
+}
+.primary-menu > li + li{
+	margin-left: 25px;
+}
+.primary-menu > li > a{
+	color: #fff;
+	font-size: 18px;
+	text-transform: capitalize;
+	padding: 6px 0px;
+
+}
+.search-form{
+	background: #1212127d;
+    padding: 28px;
+    margin-top:-160px;
+    position: relative;
+	}
+.form-control{
+	width: 400px;
+}
+.search-form input{
+	display: inline-block;
+}
+.add1 img
+{
+	height: 354px;
+    margin-top: 50px;
+
+}
+.fas.fa-caret-down{
+	margin-left: 5px;
+}
+.card-slide .item{
+	margin-right: 15px;
+	margin-left: 15px;
+}
+.primary-menu li :hover {
+  /*background-color:#12121285 ;*/
+  color: red;
+
+
+}
+.primary-menu{
+	position: sticky;
+}
+.banner{
+	height: 100vh;
+}
+#fixed{
+	position: relative;
+}
+.content-a{
+	margin-top: 100px;
+}
+/*single page*/
+.primary-menu > li{
+	display: inline-block;
+	position: relative;
+}	
+.primary-menu > li .drop-down-menu1{
+	position: absolute;
+	left: 0;
+	top:100%;
+	z-index: 99;
+	min-width: 200px;
+	 margin-top: -10px;
+	background-color: #838383f0;	
+	visibility: hidden;
+	transition: all 0.1s linear;
+
+}
+.primary-menu > li:hover .drop-down-menu1{
+	 visibility: visible;
+	margin-top: 0;
+}
+.drop-down-menu1 li a{
+	color: #121212;
+	padding:5px 10px;
+	white-space: nowrap
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    cursor: default;
+    border-bottom-color: transparent;
+    background: #45b29d none repeat scroll 0 0;
+    border: 1px solid #f7f7f8;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: #fff;
+    padding: 8px 20px !important;
+}
+
+

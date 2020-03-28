@@ -1,0 +1,203 @@
+
+
+@media screen and (min-width: 991px) {
+    .hamburger-menu{
+        display: none;
+    }
+    .primary-menu > ul  li:hover > .drop-menu{
+        transform: translateY(5px);
+        visibility: visible;
+    }
+    ul.drop-menu{
+        visibility: hidden;
+    }
+}
+@media screen and (max-width: 991px) {
+    .hamburger-menu{
+        display: block;
+        text-align: right;
+
+    }
+    .inner-banner h2{
+        font-size: 30px;
+    }
+    .site-header{
+        padding-top: 45px;
+    }
+    .date-time{
+        top: -45px;
+
+    }
+    .search-btn a{
+        width: 100%;
+    }
+    .section-four .box-sty-1 .mb20,
+    .section-one  .row > .mb20,
+    .site-footer .row > .mb20,
+    .about-section .row > .mb20,
+    .section-six .row > .mb20{
+        margin-bottom: 20px;
+    }
+    .news-detail-section .row > .mb40{
+        margin-bottom: 40px;
+    }
+    .hamburger-menu button{
+        border: none;
+        cursor: pointer;
+        font-size: 18px;
+        background-color: #759edd;
+        color: #fff;
+        padding: 5px 15px;
+    }
+    .hamburger-menu button:hover,
+    .hamburger-menu button:focus{
+        color: #000;
+    }
+    .primary-menu > ul > li.dropdown:before{
+        -mos-transform: none;
+         transform: none;
+         -webkit-transform: none;
+        -ms-transform: none;
+        top: 12px;
+        right: 10px;
+    }
+    .primary-menu ul li a{
+        display: block;
+    }
+    .primary-menu{
+        display: none;
+    }
+    ul.activities-section li{
+        flex: 0 0 50%;
+        -ms-flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .section-four .box-sty-1 .mb20{
+        margin-bottom: 20px;
+    }
+    .primary-menu{
+        position: absolute;
+        z-index: 9999;
+        right: 20px;
+        width: 200px;
+    }
+    .primary-menu > ul > li,
+    ul.drop-menu li{
+        display: block;
+    }
+    .primary-menu li ul.drop-menu{
+        position: static;
+        display: none;
+    }
+
+    .slide-1 .caption h2{
+        font-size: 25px;
+        max-width: 315px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+}
+@media screen and (max-width: 768px) {
+    .img-sty-2,
+    .video-section{
+        flex-wrap: wrap;
+    }
+    ul.activities-section li,
+    .img-sty-2 .img-holder,
+    .img-sty-2 .content,
+    .video-section .video,
+    .video-section .video-lists{
+        flex: 0 0 100%;
+        -ms-flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .full-event-info .event-info{
+        padding-left: 15px;
+        padding-top: 15px;
+        padding-bottom:15px
+    }
+    .contact-section .row > .mb40{
+        margin-bottom: 40px;
+    }
+}
+@media screen and (max-width: 575px) {
+    .logo{
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .date-time{
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+    .slider-4 .slick-dots{
+        bottom: 26px;
+    }
+    .slider-4 .slick-dots li button{
+        background:#000;
+    }
+    .slider-4 .slick-dots li.slick-active button{
+        background: #558bda;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .section-one .principal-info,
+    .about-section .principal-info{
+       flex-wrap: wrap;
+        padding-left: 0;
+        padding-top: 0;
+    }
+    .about-section .principal-info .content{
+        padding: 35px 40px;
+    }
+    .section-one .principal-info .img-holder{
+        margin-bottom: 15px;
+    }
+    .section-one .principal-info.side-bg::before {
+        display: none;
+    }
+    .about-section .principal-info .img-holder{
+        margin-right: 0;
+        margin-bottom: -15px;
+    }
+    .principal-info .img-holder,
+    .principal-info  .content,
+    .about-section .principal-info .content
+    {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+}
+@media screen and (max-width: 450px) {
+    .event-time-date{
+        flex-wrap: wrap;
+    }
+    .event-time-date li + li {
+        border-bottom: none;
+        border-top: 1px solid #ccc;
+    }
+    .event-time-date li{
+        flex: 0 0 100%;
+        -ms-flex: 0 0 100%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .copyright-section > div{
+        display: block;
+        border-right: none;
+        padding-right: 0;
+        margin-right: 0;
+    }
+    .slide-1 .caption h2{
+        font-size: 20px;
+    }
+}
