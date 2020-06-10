@@ -1,10 +1,10 @@
 # simple-website
 
-prerequisite
-1.XAMPP 
-2.Decent browser
+## Prerequisite:
+1.XAMPP \
+2.Decent browser\
 
-steps.
+## Setup:
 a.download or clone the repository <br/>
 b.export file body.sql inside localhost>phpmyadmin
 
