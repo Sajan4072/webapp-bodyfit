@@ -5,7 +5,7 @@
 2.Decent browser
 
 ## Setup:
-a.download or clone the repository <br/>
+a.download or clone the repository in this path xampp>htdocs <br/>
 b.export file body.sql inside localhost>phpmyadmin
 
 path to landing page http://localhost/fitgym/index.php <br/>
